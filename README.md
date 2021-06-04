@@ -7,7 +7,8 @@ MyBatis数据库操作demo.使用版本：version:3.5.5
 3.扩展了MyBatis自带SQL()类的功能，更方便编写sql语句；
 
 ## 使用细节
-运行代码，启动后，可基于postman，调用测试。测试端口地址如（get）：127.0.0.1:8095/customize-trace-A/mybatis/tax?kId=1046172
+运行代码，修改数据库链接的基础配置文件。（配置为本地可以访问的数据库地址信息）
+启动项目后，可基于postman，调用测试。测试端口地址如（get）：127.0.0.1:8095/customize-trace-A/mybatis/tax?kId=1046172
 
 ## 博客说明
 介绍原理，代码实现逻辑，博客地址：https://www.cnblogs.com/wlandwl/p/mybatis.html
